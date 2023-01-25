@@ -5,32 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CheckOut-Pagamento</title>
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
   <body>
     <nav>
       <ul>
         <li>Sacola</li>
-        <li>Pagamento</li>
-        <li>Confirmação</li>
-      </ul>
+        <li class="ativa">Pagamento</li>
+            <li>Confirmação</li>
+        </ul>
     </nav>
 
     <main>
-        <h1>Pagamento</h1>
-      <section>
+        <h2>Pagamento</h2>
+      <section id="principal">
         
-        <section class="left">
+        <section id="left">
           <form action="">
             <label for="">Número do Cartão de Crédito</label>
             <input type="text" />
             <label for="">Nome do Titular:</label>
             <input type="text" placeholder="Como no cartão" />
-            <div>
-              <div>
+            <div id="seguranca">
+              <div id="validade">
                 <label for="">Validade (mês/ano):</label>
                 <input type="text" />
               </div>
-              <div>
+              <div id="cvv">
                 <label for="">CVV:</label>
                 <input type="number" />
               </div>
@@ -39,23 +40,23 @@
           <img src="./assets/images/Img_cartao.png" alt="">
         </section>
 
-        <section class="right">
+        <section id="right">
             <ul>
                 <li>
                     <h5>Produtos</h5>
-                    <span>R$624,80</span>
+                    <span>R$ 624,80</span>
                 </li>
                 <li>
                     <h5>Frete</h5>
-                    <span>R$5,30</span>
+                    <span>R$ 5,30</span>
                 </li>
                 <li>
                     <h5>Desconto</h5>
-                    <span>30,00</span>
+                    <span>R$ 30,00</span>
                 </li>
-                <li>
+                <li class="total">
                     <h5>Total</h5>
-                    <span>R$610,00</span>
+                    <span>R$ 610,00</span>
                 </li>
             </ul>
             <button>Finalizar Pagamento</button>

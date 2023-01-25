@@ -1,0 +1,172 @@
+body {
+    background-color: #EBEBEB;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #EBEB;
+    box-shadow: 2px 2px 4px rgba(205, 187, 238, 0.733);
+}
+
+    nav ul {
+        width: 100%;
+        height: 50px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    nav ul li {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: blueviolet;
+        cursor: pointer;
+    }
+
+    nav .ativa {
+        color: rgb(225, 0, 255);
+    }
+
+    main h2 {
+        text-transform: uppercase;
+        color: blueviolet;
+        margin-left: 20px;
+    }
+
+    #principal {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+        #left {
+            width: 73%;
+            border: 1px solid rgb(225, 0, 255);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px blueviolet;
+        }
+
+        form {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            font-size: 15px;
+            font-weight: 700;
+
+        }
+
+        form input {
+            height: 35px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form input::placeholder {
+            padding: 5px;
+            font-size: 15px;
+        }
+
+        #seguranca {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #validade {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #cvv {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            width: 230px;
+        }
+
+    #right {
+            width: 23%;
+            border: 1px solid rgb(225, 0, 255);
+            background-color: white;
+            height: 195px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 2px blueviolet;
+    }
+
+        #right ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        #right ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 20px;
+            margin: 5px;
+            padding: 5px;
+            text-transform: uppercase;
+            font-size: 23px;
+        }
+
+        #right ul li span {
+            font-size: 20px;
+        }
+
+        .total {
+            padding-top: 15px !important;
+            margin-top: 20px !important;
+            font-weight: bold;
+            
+        }
+
+        .total h5 {
+            font-weight: bold !important;
+        }
+
+        #right ul li h5 {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        #right button {
+            height: 40px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(225, 0, 255);
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+            align-items: center;
+            box-shadow: 2px 2px 2px blueviolet;
+            cursor: pointer;
+        }
+
+        #right button:hover {
+            background-color: blueviolet;
+        }
